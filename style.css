@@ -156,6 +156,11 @@ body {
 .landing-page {
     min-height: 100vh;
     position: relative;
+    background: url('./Images/Background/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .overlay {
