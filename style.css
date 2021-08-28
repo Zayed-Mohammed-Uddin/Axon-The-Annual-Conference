@@ -954,7 +954,7 @@ header {
 @media screen and (min-width:280px) and (max-width:991px) {
     @media screen and (min-width:280px) and (max-width:280px) {
         .social-media a {
-            margin-right: -0.01em !important;
+            margin-right: -0.145em !important;
         }
 
         .md-content-header i {
@@ -979,6 +979,7 @@ header {
     .md-content {
         height: 100vh !important;
         box-shadow: none !important;
+        overflow-y: scroll;
     }
 
     .md-overlay {
