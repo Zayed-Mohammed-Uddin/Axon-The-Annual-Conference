@@ -1003,11 +1003,13 @@ header {
     .md-content>div {
         font-size: 0.9em !important;
     }
-    .custom-md-content>div{
-        padding:0;
-        padding-top:15px;
+
+    .custom-md-content>div {
+        padding: 0;
+        padding-top: 15px;
         padding-bottom: 30px;
     }
+
     .social-media a {
         margin-right: 0.4em;
         margin-bottom: 1em;
@@ -1285,7 +1287,6 @@ header {
     left: 44.8%;
     background: var(--primaryHoverColor);
 }
-
 /* SECTION - 7 MEDIA QUERY START */
 @media only screen and (min-width:280px) and (max-width:991px) {
     @media screen and (min-width:280px) and (max-width:280px) {}
