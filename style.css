@@ -974,6 +974,7 @@ header {
     .md-modal {
         width: 100%;
         height: 100%;
+        z-index: 99999999 !important;
     }
 
     .md-content {
@@ -997,9 +998,14 @@ header {
     .md-content>div {
         font-size: 0.9em !important;
     }
-
+    .custom-md-content>div{
+        padding:0;
+        padding-top:15px;
+        padding-bottom: 30px;
+    }
     .social-media a {
         margin-right: 0.4em;
+        margin-bottom: 1em;
     }
 }
 
