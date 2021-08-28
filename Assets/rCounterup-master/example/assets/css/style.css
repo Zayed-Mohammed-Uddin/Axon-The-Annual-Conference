@@ -1,0 +1,91 @@
+/*
+    Default Style
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+:root {
+    --body-font: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: var(--body-font);
+}
+
+.single-coutnerup .count-num {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fc4444;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.single-coutnerup {
+    text-align: center;
+}
+
+.single-coutnerup .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.card {
+    margin-bottom: 30px;
+}
+
+.card .card-header .title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.card .card-body code {
+    background-color: #efecec;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.header .title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header .title::first-letter {
+    color: #fc4444;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 40px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu li a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 500ms;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: #fc4444;
+}
+
+ul.menu li+li {
+    margin-left: 25px;
+}
