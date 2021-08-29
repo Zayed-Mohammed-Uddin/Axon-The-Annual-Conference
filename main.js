@@ -179,7 +179,7 @@ document.getElementById("btn-4").addEventListener("click", function () {
 $(document).ready(function () {
     $.fakeLoader({
         timeToHide: 5000,
-        bgColor: "#3498db",
+        bgColor: "rgb(27, 208, 126)",
         spinner: "spinner4"
     });
 });
@@ -203,35 +203,35 @@ function initMap() {
             lat: 38.9897,
             lng: -76.9378
         },
-        content: '<h6>Secret Mirage - Maryland Branch</h6>'
+        content: '<h6>Axon - Maryland Branch</h6>'
     });
     addMarker({
         coordinates: {
             lat: 42.4072,
             lng: -71.3824
         },
-        content: '<h6>Secret Mirage - Massachusetts Branch</h6>'
+        content: '<h6>Axon - Massachusetts Branch</h6>'
     });
     addMarker({
         coordinates: {
             lat: 39.5501,
             lng: -105.7821
         },
-        content: '<h6>Secret Mirage - Colorado Branch</h6>'
+        content: '<h6>Axon - Colorado Branch</h6>'
     });
     addMarker({
         coordinates: {
             lat: 32.3547,
             lng: -89.3985
         },
-        content: '<h6>Secret Mirage - Mississippi Branch</h6>'
+        content: '<h6>Axon - Mississippi Branch</h6>'
     });
     addMarker({
         coordinates: {
             lat: 37.7749,
             lng: -122.4194
         },
-        content: '<h6>Secret Mirage - California Branch</h6>'
+        content: '<h6>Axon - California Branch</h6>'
     });
 
     function addMarker(properties) {
