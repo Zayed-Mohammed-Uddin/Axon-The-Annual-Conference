@@ -1283,10 +1283,11 @@ header {
     position: absolute;
     width: 75px;
     height: 3px;
-    top: 37%;
+    top: 47%;
     left: 44.8%;
     background: var(--primaryHoverColor);
 }
+
 /* SECTION - 7 MEDIA QUERY START */
 @media only screen and (min-width:280px) and (max-width:991px) {
     @media screen and (min-width:280px) and (max-width:280px) {}
