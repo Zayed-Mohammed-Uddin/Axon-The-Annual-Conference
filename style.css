@@ -67,7 +67,6 @@ body {
 .navbar-brand {
     font-family: var(--secondaryFont);
     margin-right: 0px;
-    margin-left: 1.2rem;
     font-size: 27px;
     letter-spacing: 1px;
     color: #fff !important;
