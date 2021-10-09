@@ -12,9 +12,12 @@
     --secondaryFont: 'Poppins', sans-serif;
     --secondaryTransition: all 0.5s linear;
 }
-
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track {
@@ -22,12 +25,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(transparent, var(--primaryHoverColor));
-    border-radius: 6px;
+    /* background: linear-gradient(transparent, var(--primaryHoverColor)); */
+    /* border-radius: 6px; */
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(transparent, hsla(153, 77%, 46%, 0.678));
+    /* background: linear-gradient(transparent, hsla(153, 77%, 46%, 0.678)); */
+    background:transparent;
 }
 
 ::selection {
