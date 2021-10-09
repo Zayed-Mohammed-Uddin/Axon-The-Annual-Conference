@@ -249,17 +249,17 @@ function initMap() {
         }
     }
 }
-$(function () {
-    $("html").niceScroll();
-});
-$("html").niceScroll({
-    cursorcolor: "#1bce7c", // change cursor color in hex
-    cursorwidth: "5px", // cursor width in pixel (you can also write "5px")
-    cursorborder: "1px solid #1bce7c", // css definition for cursor border
-    cursorborderradius: "6px", // border radius in pixel for cursor
-    scrollspeed: 35, // scrolling speed
-    mousescrollstep: 25, // scrolling speed with mouse wheel (pixel)
-});
+// $(function () {
+//     $("html").niceScroll();
+// });
+// $("html").niceScroll({
+//     cursorcolor: "#1bce7c", // change cursor color in hex
+//     cursorwidth: "5px", // cursor width in pixel (you can also write "5px")
+//     cursorborder: "1px solid #1bce7c", // css definition for cursor border
+//     cursorborderradius: "6px", // border radius in pixel for cursor
+//     scrollspeed: 35, // scrolling speed
+//     mousescrollstep: 25, // scrolling speed with mouse wheel (pixel)
+// });
 // Newsletter POP UP
 $(document).ready(function () {
     setTimeout(function () {
