@@ -4,7 +4,17 @@ $(window).scroll(function () {
     } else {
         $('.main_nav-bar').css('background', 'transparent');
     }
-});
+}); 
+
+/* letter*/ 
+function redirectToArx() {
+   
+    var arxUrl = index1; // Replace with your actual URL
+  
+    // Perform the redirection
+    window.location.href = arxUrl;
+  }
+  
 // NAVBAR ACTIVE LINK SWICTHING
 document.getElementById("HME").addEventListener("click", function () {
     document.getElementById("HME").classList.add("active-link");
@@ -116,65 +126,39 @@ $('.custom-carousel').owlCarousel({
     }
 });
 document.getElementById("btn-1").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 15, 2021";
+    document.getElementById("sch_date").innerHTML = "JANUARY 11, 2021";
+   
     document.getElementById("btn-1").classList.add("active_schedule_btn");
     document.getElementById("btn-2").classList.remove("active_schedule_btn");
-    document.getElementById("btn-3").classList.remove("active_schedule_btn");
-    document.getElementById("btn-4").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "WELCOME SPEECH AND OVERVIEW";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Andrew Yang</strong> - CEO, Microsoft";
-    document.getElementById("acc-title-3").innerHTML = "THE IMPACT OF AI ON WORLD";
-    document.getElementById("acc-title-4").innerHTML = "<strong>Tim Cook</strong> - CEO, Apple";
-    document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
-    document.getElementById("acc-title-6").innerHTML = "<strong>Sponsored</strong> - AirTM, PayPal, TechGeek";
-    document.getElementById("acc-title-7").innerHTML = "NEXT-GEN DESIGN";
-    document.getElementById("acc-title-8").innerHTML = "<strong>Mary Doe</strong> - Lead Designer, Google";
+
+    document.getElementById("acc-title-1").innerHTML = "Techincal Quiz";
+    document.getElementById("acc-title-2").innerHTML = " Co - Ordinator<strong> Varsha</strong> ";
+    document.getElementById("acc-title-3").innerHTML = "Ideathon";
+    document.getElementById("acc-title-4").innerHTML = " Co - ordinator<strong>AN</strong> ";
+    document.getElementById("acc-title-5").innerHTML = "Real World Problem";
+    document.getElementById("acc-title-6").innerHTML = " Co - ordinator<strong>USHA</strong> ";
+    document.getElementById("acc-title-7").innerHTML = "Debugging";
+    document.getElementById("acc-title-8").innerHTML = "Co - ordinator<strong>GFDD</strong>"; 
+    document.getElementById("acc-title-9").innerHTML = "E - sports";
+    document.getElementById("acc-title-10").innerHTML = "Co - ordinator<strong>GFDD</strong>";
 });
 document.getElementById("btn-2").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 16, 2021";
+    document.getElementById("sch_date").innerHTML = "JANUARY 12, 2021";
     document.getElementById("btn-2").classList.add("active_schedule_btn");
+  
     document.getElementById("btn-1").classList.remove("active_schedule_btn");
-    document.getElementById("btn-3").classList.remove("active_schedule_btn");
-    document.getElementById("btn-4").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "SEMINAR ON DEEPLEARNING & TENSORFLOW";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Gennady Korotkevich</strong> - #1 IN GOOGLE CODE JAM";
-    document.getElementById("acc-title-3").innerHTML = "DATA MINING & DRILLING NUMPY";
-    document.getElementById("acc-title-4").innerHTML = "<strong>William Lin</strong> - Freshman, MIT";
-    document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
-    document.getElementById("acc-title-6").innerHTML = "<strong>Sponsored</strong> - AirTM, PayPal, TechGeek";
-    document.getElementById("acc-title-7").innerHTML = "WORKSHOP ON ADOBE PHOTOSHOP";
-    document.getElementById("acc-title-8").innerHTML = "<strong>Sarah Ricky</strong> - Lead Designer, Microsoft";
-});
-document.getElementById("btn-3").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 17, 2021";
-    document.getElementById("btn-3").classList.add("active_schedule_btn");
-    document.getElementById("btn-1").classList.remove("active_schedule_btn");
-    document.getElementById("btn-2").classList.remove("active_schedule_btn");
-    document.getElementById("btn-4").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "JOURNEY INTO THE AI REALM";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Andrew Ng.</strong> - FOUNDER & CEO OF Landing AI";
-    document.getElementById("acc-title-3").innerHTML = "ERA OF MACHINE LEARNING";
-    document.getElementById("acc-title-4").innerHTML = "<strong>Fei-Fei Li.</strong> - Professor of CS, Stanford University";
-    document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
-    document.getElementById("acc-title-6").innerHTML = "<strong>Sponsored</strong> - AirTM, PayPal, TechGeek";
-    document.getElementById("acc-title-7").innerHTML = "BRIEF WALKTHROUGH ON ADOBE ILLUSTRATOR";
-    document.getElementById("acc-title-8").innerHTML = "<strong>Mary Doe</strong> - Lead Designer, Google";
-});
-document.getElementById("btn-4").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 18, 2021";
-    document.getElementById("btn-4").classList.add("active_schedule_btn");
-    document.getElementById("btn-1").classList.remove("active_schedule_btn");
-    document.getElementById("btn-2").classList.remove("active_schedule_btn");
-    document.getElementById("btn-3").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "INTRODUCTION TO WEB-PROGRAMMING";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Henry Rich</strong> - Lead Programmer, SpaceX";
-    document.getElementById("acc-title-3").innerHTML = "PLAYING WITH FUNDAMENTALS OF JAVA";
-    document.getElementById("acc-title-4").innerHTML = "<strong>Errichto</strong> - International Grandmaster, Codeforce";
-    document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
-    document.getElementById("acc-title-6").innerHTML = "<strong>Sponsored</strong> - AirTM, PayPal, TechGeek";
-    document.getElementById("acc-title-7").innerHTML = "ENCODING DESIGN";
-    document.getElementById("acc-title-8").innerHTML = "<strong>John Doe</strong> - Co-Lead, AirTM";
-});
+   
+    document.getElementById("acc-title-1").innerHTML = "Sangeetika -Nrityotsava";
+    document.getElementById("acc-title-2").innerHTML = "CO-ordinator<strong> XYZ</strong> ";
+    document.getElementById("acc-title-3").innerHTML = "Dumb-charades,pictionary,picture quiz";
+    document.getElementById("acc-title-4").innerHTML = "co -ordinators<strong>xcv</strong> ";
+    document.getElementById("acc-title-5").innerHTML = "Talent Show";
+    document.getElementById("acc-title-6").innerHTML = "CO-ordinator<strong>fdb</strong> ";
+    document.getElementById("acc-title-7").innerHTML = "Memes-Reels";
+    document.getElementById("acc-title-8").innerHTML = "CO-ordinator<strong>dfbd</strong> ";
+}); 
+
+
 // fakeloader initialization
 $(document).ready(function () {
     $.fakeLoader({
@@ -289,4 +273,38 @@ $("#closebutton").click(function(){
                 form.classList.add('was-validated')
             }, false)
         })
-});
+}); 
+
+
+
+function redirectToArx() {
+    window.location.href = "index1.html"; // Replace with the actual URL of the arx website
+  }
+  
+
+
+  //Create card header
+const cardHeader = document.createElement('h2');
+cardHeader.className = 'card-header';
+cardHeader.textContent = title;
+
+//Create card image
+const cardImage = document.createElement('img');
+cardImage.className = 'card-image';
+cardImage.src = url;
+cardImage.alt = title;
+
+//Append card image to card header
+cardHeader.appendChild(cardImage);
+
+//Append card header to card
+card.appendChild(cardHeader);
+
+//Append card to body
+document.body.appendChild(card); 
+
+
+insertPictureInsideCard('1.jpg', 'Example Image'); 
+
+
+
